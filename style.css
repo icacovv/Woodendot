@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  min-height: 68px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 35px;
+}
+header ul {
+  display: flex;
+  gap: 20px;
+}
+header ul li {
+  list-style-type: none;
+}
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+.logo-wrapper {
+  margin-left: 328px;
+}
+.first-section {
+  min-height: 700px;
+  background-image: url(/img/IMAGE\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding-top: 257px;
+  /* margin-bottom: 65px; */
+}
+/* .first-section {
+    min-height: 700px;
+    background-image: url(/img/IMAGE\ \(1\).png);
+    padding-top: 257px;
+  } */
+.first-section__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
+.first-section__btn {
+  height: 33px;
+  width: 204px;
+  border: 1px solid #ffffff;
+  background-color: rgba(28, 28, 28, 0);
+  padding: 6px 0px 7px 0px;
+  display: block;
+  margin: 0 auto;
+}
+.first-section__btn span {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.second-section {
+  min-height: 155px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.second-section__wrapper-advantages {
+  padding: 0px 109px 0px 69px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+}
+.advantage {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.advantage p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.second-section__wrapper-advantages .advantage:last-child {
+  margin-left: auto;
+}
+.third-section {
+  min-height: 320px;
+}
+.third-section__wrapper {
+  display: flex;
+  width: 100%;
+}
+.third-section__wrapper img {
+  padding: 0;
+  width: 25%;
+}
+.design-form {
+  display: flex;
+}
+.first-design-attribute {
+  min-height: 657px;
+  padding-top: 115px;
+  padding-left: 21px;
+  gap: 22px;
+  margin-bottom: 29px;
+}
+.design-form__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 56px;
+  text-align: right;
+  color: #000000;
+}
+.design-form__subtitle {
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 37px;
+  text-align: right;
+  color: #000000;
+}
+.design-form__price {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: right;
+  color: #000000;
+}
+.design-form__description {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: right;
+  color: #525252;
+}
+.design-form__link {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: right;
+  color: #000000;
+  text-decoration: underline;
+  padding-bottom: 2px;
+}
+.design-form__wrapper-for-img {
+  min-width: 960px;
+  min-height: 542px;
+}
+.design-form__wrapper-for-img img {
+  width: 100%;
+}
+.first-design-attribute .design-form__title {
+  margin-top: 48px;
+  margin-bottom: 4px;
+}
+.first-design-attribute .design-form__subtitle {
+  margin-bottom: 19px;
+}
+.first-design-attribute .design-form__price {
+  margin-bottom: 12px;
+}
+.first-design-attribute .design-form__description {
+  margin-bottom: 66px;
+}
+.text-left {
+  text-align: left !important;
+}
+.second-design-attribute {
+  min-height: 542px;
+  gap: 38px;
+  margin-bottom: 29px;
+}
+.second-design-attribute .design-form__info {
+  order: 1;
+}
+.second-design-attribute .design-form__title {
+  font-size: 30px;
+  margin-top: 96px;
+  margin-bottom: 4px;
+}
+.second-design-attribute .design-form__subtitle {
+  margin-bottom: 18px;
+}
+.second-design-attribute .design-form__price {
+  margin-bottom: 22px;
+}
+.second-design-attribute .design-form__description {
+  margin-bottom: 24px;
+}
+.design-form__additional-info {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #54595f;
+  text-align: right;
+}
+.second-design-attribute .design-form__additional-info {
+  margin-bottom: 47px;
+}
+.third-design-attribute {
+  gap: 48px;
+  margin-bottom: 29px;
+}
+.third-design-attribute .design-form__inscription {
+  font-family: 'Cardo';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+text-align: right;
+color: #BC1414;
+margin-top: 47px;
+margin-bottom: 20px;
+}
+.third-design-attribute .design-form__title {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+.third-design-attribute .design-form__subtitle {
+  margin-bottom: 18px;
+}
+.third-design-attribute .design-form__price {
+  margin-bottom: 46px;
+}
+.third-design-attribute .design-form__description {
+  margin-bottom: 25px;
+}
+.third-design-attribute .design-form__additional-info {
+  margin-bottom: 48px;
+}
+.fourth-design-attribute {
+  gap: 48px;
+  margin-bottom: 54px;
+}
+.fourth-design-attribute .design-form__tickets {
+  width: 230px;
+  height: 70px;
+}
+.fourth-design-attribute .design-form__info {
+  order: 2;
+}
+.fourth-design-attribute .design-form__title {
+  margin-bottom: 4px;
+  margin-top: 48px;
+}
+.fourth-design-attribute .design-form__subtitle {
+  margin-bottom: 18px;
+}
+.fourth-design-attribute .design-form__price {
+  margin-bottom: 22px;
+}
+.fourth-design-attribute .design-form__description {
+  margin-bottom: 25px;
+}
+.fourth-design-attribute .design-form__additional-info {
+  margin-bottom: 47px;
+}
+.fourth-design-attribute .design-form__link {
+  margin-bottom: 50px;
+}
+.fifth-design-attribute {
+  gap: 48px;
+}
+.fifth-design-attribute .design-form__title {
+  margin-bottom: 4px;
+}
+.fifth-design-attribute .design-form__price {
+  margin-bottom: 46px;
+}
+.fifth-design-attribute .design-form__description {
+  margin-bottom: 23px;
+}
+.fifth-design-attribute .design-form__additional-info {
+  margin-bottom: 48px;
+}
