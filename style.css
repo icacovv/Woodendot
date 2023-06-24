@@ -230,15 +230,15 @@ header ul li a {
   margin-bottom: 29px;
 }
 .third-design-attribute .design-form__inscription {
-  font-family: 'Cardo';
-font-style: italic;
-font-weight: 400;
-font-size: 14px;
-line-height: 30px;
-text-align: right;
-color: #BC1414;
-margin-top: 47px;
-margin-bottom: 20px;
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: right;
+  color: #bc1414;
+  margin-top: 47px;
+  margin-bottom: 20px;
 }
 .third-design-attribute .design-form__title {
   font-size: 32px;
@@ -255,6 +255,9 @@ margin-bottom: 20px;
 }
 .third-design-attribute .design-form__additional-info {
   margin-bottom: 48px;
+}
+.fourth-section {
+  margin-bottom: 61px;
 }
 .fourth-design-attribute {
   gap: 48px;
@@ -300,4 +303,36 @@ margin-bottom: 20px;
 }
 .fifth-design-attribute .design-form__additional-info {
   margin-bottom: 48px;
+}
+.fifth-section {
+  min-width: 665px;
+}
+.fifth-section__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  color: #3a3a3a;
+  margin-bottom: 21px;
+}
+.fifth-section__subtitle {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 37px;
+}
+.fifth-section__wrapper-img {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.fifth-section__img-item {
+  min-width: 367px;
+  min-height: 550px;
 }
