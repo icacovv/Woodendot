@@ -27,7 +27,7 @@ header ul li a {
 }
 .first-section {
   min-height: 700px;
-  background-image: url(/img/IMAGE\\(1\).png);
+  background-image: url(/img/IMAGE\ \(1\).png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -498,4 +498,94 @@ header ul li a {
 }
 .eighth-section__img-wrapper img {
   width: 100%;
+}
+footer {
+  min-height: 429px;
+  background-color: #e9e9e9;
+  padding-top: 55px;
+}
+.footer__top-part {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 37px;
+}
+.footer__about,
+.footer__help,
+.footer__more {
+  min-width: 208px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.footer__about h3,
+.footer__help h3,
+.footer__more h3 {
+  margin-bottom: 33px;
+  color: #000;
+  text-align: center;
+  font-size: 21px;
+  font-family: Cardo;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.footer__about a,
+.footer__help a,
+.footer__more a {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-family: Cardo;
+  line-height: 20px;
+}
+.footer__more {
+  margin-right: 110px;
+}
+.footer__recommendation {
+  display: flex;
+  flex-direction: column;
+}
+.footer__recommendation p {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-family: Cardo;
+  line-height: 27.857px;
+  margin-bottom: 15px;
+}
+.footer__recommendation-inscription {
+  min-width: 237px;
+  height: 25px;
+  border: 1.5px solid black;
+  background-color: white;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__recommendation-inscription span {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-family: Cardo;
+  line-height: 15px;
+}
+.footer__img-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.footer__recommendation-stars-img {
+  text-align: center;
+}
+.footer__for-bottom-part-img-wrapper {
+  display: flex;
+  gap: 8px;
+}
+.footer__bottom-part {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  align-items: center;
 }
