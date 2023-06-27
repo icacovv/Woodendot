@@ -27,7 +27,7 @@ header ul li a {
 }
 .first-section {
   min-height: 700px;
-  background-image: url(/img/IMAGE\ \(1\).png);
+  background-image: url(/img/IMAGE\\(1\).png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -70,7 +70,7 @@ header ul li a {
 }
 .second-section {
   min-height: 155px;
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   display: flex;
   align-items: center;
 }
@@ -258,6 +258,7 @@ header ul li a {
 }
 .fourth-section {
   margin-bottom: 61px;
+  background-color: #f7f7f7;
 }
 .fourth-design-attribute {
   gap: 48px;
@@ -306,6 +307,8 @@ header ul li a {
 }
 .fifth-section {
   min-width: 665px;
+  background-color: #f7f7f7;
+  padding-bottom: 97px;
 }
 .fifth-section__title {
   font-family: "Cardo";
@@ -331,8 +334,168 @@ header ul li a {
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 20px;
 }
 .fifth-section__img-item {
   min-width: 367px;
   min-height: 550px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  position: relative;
+  padding-right: 20px;
+}
+.fifth-section__inst-info {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  position: absolute;
+  top: 41px;
+}
+.fifth-section__inst-info img {
+  width: 14px;
+  height: 14px;
+}
+.inst-info__first {
+  left: 280px;
+}
+.inst-info__second {
+  left: 230px;
+}
+.inst-info__third {
+  left: 240px;
+}
+.fifth-section__inst-info p {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: right;
+  color: #ffffff;
+}
+.fifth-section__cubes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 136px;
+}
+.fifth-section__cubes-bottom {
+  margin-bottom: 0px;
+}
+.fifth-section__cube {
+  width: 9px;
+  height: 9px;
+  background: #000000;
+}
+.standart {
+  margin-right: 7px;
+}
+.medium {
+  width: 7px;
+  height: 7px;
+  margin-right: 4px;
+}
+.small {
+  width: 3px;
+  height: 3px;
+  margin-right: 7px;
+}
+.fifth-section__review {
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #020202;
+  margin-bottom: 37px;
+}
+.fifth-section__reviewer {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 53px;
+}
+.sixth-section {
+  min-height: 350px;
+}
+.sixth-section__content-wrapper {
+  width: 100%;
+  display: flex;
+}
+.sixth-section__content-item {
+  min-width: 25%;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 54px;
+}
+.sixth-section__content-item img {
+  width: 85px;
+  height: 85px;
+  margin-bottom: 29px;
+}
+.sixth-section__content-item h3 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.sixth-section__content-item p {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 23px;
+}
+.sixth-section__content-item a {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.blue-background {
+  background-color: #f8f8f8;
+}
+.eighth-section {
+  min-height: 387px;
+  background-color: #f7f7f7;
+  padding-top: 133px;
+}
+.eighth-section__title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #454545;
+  margin-bottom: 41px;
+}
+.eighth-section__img-wrapper {
+  width: 100%;
+  padding: 0px 10px;
+  margin-bottom: 83px;
+}
+.eighth-section__img-wrapper img {
+  width: 100%;
 }
