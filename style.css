@@ -228,6 +228,7 @@ header ul li a {
 .third-design-attribute {
   gap: 48px;
   margin-bottom: 29px;
+  justify-content: right;
 }
 .third-design-attribute .design-form__inscription {
   font-family: "Cardo";
