@@ -30,8 +30,10 @@ header ul li a {
   background-image: url(/img/IMAGE\ \(1\).png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  /* background-size: contain; */
+  background-size: 100%;
   padding-top: 257px;
+  width: 100%!important;
   /* margin-bottom: 65px; */
 }
 /* .first-section {
