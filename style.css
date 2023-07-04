@@ -26,7 +26,7 @@ header ul li a {
   margin-left: 328px;
 }
 .first-section {
-  min-height: 700px;
+  min-height: 641px;
   background-image: url(/img/IMAGE\ \(1\).png);
   background-repeat: no-repeat;
   background-position: center;
@@ -100,7 +100,7 @@ header ul li a {
   margin-left: auto;
 }
 .third-section {
-  min-height: 320px;
+  min-height: 294px;
 }
 .third-section__wrapper {
   display: flex;
@@ -257,7 +257,7 @@ header ul li a {
   margin-bottom: 48px;
 }
 .fourth-section {
-  margin-bottom: 61px;
+  /* margin-bottom: 61px; */
   background-color: #f7f7f7;
 }
 .fourth-design-attribute {
@@ -309,6 +309,7 @@ header ul li a {
   min-width: 665px;
   background-color: #f7f7f7;
   padding-bottom: 97px;
+  padding-top: 61px;
 }
 .fifth-section__title {
   font-family: "Cardo";
